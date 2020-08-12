@@ -4,3 +4,4 @@ test.exe
 fptest/lib/
 units/backup/
 fptest/backup/
+/test.lps
