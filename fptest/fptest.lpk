@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="fptest"/>
+    <Author Value="Graeme Geldenhuys"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="src"/>
+        <OtherUnitFiles Value="src;3rdparty/epiktimer"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Free Pascal Testing Framework."/>
+    <License Value="Mozilla Public License"/>
+    <Version Major="2" Minor="1"/>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="src/TestFrameworkIfaces.pas"/>
+        <UnitName Value="TestFrameworkIfaces"/>
+      </Item1>
+      <Item2>
+        <Filename Value="src/ProjectsManagerIface.pas"/>
+        <UnitName Value="ProjectsManagerIface"/>
+      </Item2>
+      <Item3>
+        <Filename Value="src/TestListenerIface.pas"/>
+        <UnitName Value="TestListenerIface"/>
+      </Item3>
+      <Item4>
+        <Filename Value="src/TestFrameworkProxyIfaces.pas"/>
+        <UnitName Value="TestFrameworkProxyIfaces"/>
+      </Item4>
+      <Item5>
+        <Filename Value="src/ProjectsManager.pas"/>
+        <UnitName Value="ProjectsManager"/>
+      </Item5>
+      <Item6>
+        <Filename Value="3rdparty/epiktimer/epiktimer.pas"/>
+        <UnitName Value="EpikTimer"/>
+      </Item6>
+      <Item7>
+        <Filename Value="src/timemanager.pas"/>
+        <UnitName Value="TimeManager"/>
+      </Item7>
+      <Item8>
+        <Filename Value="src/TestFramework.pas"/>
+        <UnitName Value="TestFramework"/>
+      </Item8>
+      <Item9>
+        <Filename Value="src/XMLListener.pas"/>
+        <UnitName Value="XMLListener"/>
+      </Item9>
+      <Item10>
+        <Filename Value="src/TestFrameworkProxy.pas"/>
+        <UnitName Value="TestFrameworkProxy"/>
+      </Item10>
+      <Item11>
+        <Filename Value="src/fpchelper.pas"/>
+        <UnitName Value="fpchelper"/>
+      </Item11>
+      <Item12>
+        <Filename Value="src/TextTestRunner.pas"/>
+        <UnitName Value="TextTestRunner"/>
+      </Item12>
+      <Item13>
+        <Filename Value="src/TestExtensions.pas"/>
+        <UnitName Value="TestExtensions"/>
+      </Item13>
+      <Item14>
+        <Filename Value="src/FPCUnitCompatibleInterface.inc"/>
+        <Type Value="Include"/>
+      </Item14>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
