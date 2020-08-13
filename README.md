@@ -9,8 +9,6 @@ Units are split up by what they do, and lives under the /unit/ directory
 * units/websec_url
 * units/websec_css
 
-There are functions for escaping/unescaping and encoding/decoding strings.
-
-Code is based on the OWASP cheatsheet for XSS (Cross Site Scripting) protection.
+Code is mostly based on rules in the [OWASP cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) for XSS (Cross Site Scripting) prevention.
 
 <img src="Lazarus.png" width="150" />
